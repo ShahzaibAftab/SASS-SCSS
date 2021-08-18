@@ -1,0 +1,60 @@
+@import 'variables';
+@import 'mixin';
+a{
+  @include property;
+}
+#parent{
+    background-color: $gry;
+}
+#clr{
+  color: $top;
+}
+#topmenu{
+  color: $top;
+  padding-top: 50px
+}
+h1{
+  color: gray;
+  font-family: Peddana;
+}
+#name{
+  font-size: 40px;
+}
+#bodyuptext{
+  @include bodyup;
+}
+.carousel-inner img {
+ @include image
+}
+.prof
+{
+width: 300px;
+height: 100px;
+border-radius: 100px;
+}
+#menucolor{
+  color: $menu;
+  font-family: Peddana;
+}
+.frst{
+  background-color:$lght;
+  font-family: Peddana;
+}
+#textclr
+{
+  font-family: Peddana;
+  color:$blck;
+}
+.ppl{
+  color:$ppl;
+  font-family: Peddana;
+}
+#wht{
+  background-color:$top;
+}
+#input{
+  @include input;
+}
+.upper{
+@include upr;
+}
